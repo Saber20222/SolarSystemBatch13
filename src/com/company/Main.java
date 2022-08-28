@@ -4,10 +4,17 @@ public class Main {
     public static void main(String[] args) {
         // write code here
 
-        solarSystem inception =new solarSystem();
-        inception.sun=1;
-        inception.moon=4;
-        inception.planets=2;
+        solarSystem inception = new solarSystem();
+        inception.sun = 1;
+        inception.moon = 4;
+        inception.planets = 2;
         System.out.println("the basic structure is is ready");
+
+//  Developing the feature SUN
+        SUN omaro = new SUN();
+        omaro.temperature="12334433kj";
+        omaro.name="ferro";
+        omaro.radius=12344555454545455454;
+        omaro.color="pink";
     }
 }
